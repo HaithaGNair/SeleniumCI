@@ -10,8 +10,8 @@ public class LoginTest extends BaseClass{
       String title = driver.getTitle();
       Assert.assertTrue(title.contains("Google"));
       System.out.println("runned");
-      System.out.println("runned");
-      System.out.println("runned");
+     
+      
       closeBrowser();
   }
 }
