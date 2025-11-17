@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/<your-username>/selenium-ci.git'
+                    url: 'https://github.com/HaithaGNair/SeleniumCI.git'
             }
         }
 
